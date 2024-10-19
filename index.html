@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SaudeFacil</title>
+
+    <link rel="stylesheet" href="./assets/css/style.css"/>
+    <link rel="stylesheet" href="./assets/css/resp.css"/>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap"rel="stylesheet"/>
+  </head>
+  <body>
+    <nav id="navigation">
+      <div class="wrapper">
+        <a class="logo" href="#home">
+         
+        </a>
+
+        <div class="menu">
+          <ul>
+            <li>
+              <a onclick="closeMenu()" href="#home">Início</a>
+            </li>
+            <li><a onclick="closeMenu()" href="#services">Serviços</a></li>
+            <li><a onclick="closeMenu()" href="#about">Sobre</a></li>
+          </ul>
+
+          <a class="button1" onclick="closeMenu()" href="#contact">
+            <i class="fab fa-whatsapp"></i> Agende sua consulta
+          </a>
+
+      </div>
+    </nav>
+
+    <section id="home">
+      <div class="wrapper">
+        <div class="col-a">
+          <header>
+            <h4>BEM-VINDO AO SAÚDE FÁCIL 🌟</h4>
+            <h1>Cuidado médico fácil para você!</h1>
+          </header>
+
+          <div class="content">
+            <p>
+              Na Saúde Fácil, nossa equipe médica se dedica a ir além dos sintomas. 
+              Nós garantinmos uma recuperação duradoura e de qualidade.
+            </p>
+            <a class="button" href="#contact">
+              Agende sua consulta
+            </a>
+          </div>
+        </div>
+
+        <div class="img-principal">
+          <img
+            src="./assets/images/medicos.png"
+            alt="medicos"
+          />
+        </div>
+
+        <div class="stats">
+          <div class="stat">
+            <h3 class="count" data-target="2500">0</h3>
+            <p>Pacientes atendidos</p>
+          </div>
+        
+          <div class="stat">
+            <h3 class="count" data-target="25">0</h3>
+            <p>Especialistas disponíveis</p>
+          </div>
+        
+          <div class="stat">
+            <h3 class="count" data-target="5">0</h3>
+            <p>Anos no mercado</p>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="wrapper">
+        <header>
+          <h4>Serviços</h4>
+          <h2>De que forma podemos ajudar você ?</h2>
+        </header>
+
+        <div class="content">
+          <div class="cards">
+            <div class="card">
+              <h3>Ortopedia e Medicina Esportiva <i class="material-icons icon">fitness_center</i></h3>
+              <p>Diagnóstico e tratamento especializado para garantir o bom funcionamento do sistema locomotor.</p>
+            </div>
+            
+            <div class="card">
+              <h3>Dermatologia e Estética <i class="material-icons icon">spa</i></h3>
+              <p>Cuidado completo com a pele, desde tratamentos clínicos até procedimentos estéticos.</p>
+            </div>
+            
+            <div class="card">
+              <h3>Psicologia e Saúde Mental <i class="material-icons icon">psychology</i></h3>
+              <p>Cuidamos da sua mente com suporte emocional e terapias modernas para uma vida mais equilibrada.</p>
+            </div>
+            
+            <div class="card">
+              <h3>Pediatria Humanizada <i class="material-icons icon">child_care</i></h3>
+              <p>Acompanhamento próximo e acolhedor para crianças em todas as fases de desenvolvimento.</p>
+            </div>
+            
+            <div class="card">
+              <h3>Saúde da Mulher <i class="material-icons icon">female</i></h3>
+              <p>Acompanhamento especializado com foco em ginecologia e bem-estar feminino.</p>
+            </div>
+            
+            <div class="card">
+              <h3>Cardiologia Preventiva <i class="material-icons icon">favorite</i></h3>
+              <p>Cuidamos do seu coração com prevenção e tratamentos modernos para manter 
+                sua saúde cardiovascular em dia.</p>
+            </div>  
+        </div>
+      </div>
+    </section>
+
+  
+
+    <section id="about">
+      <div class="wrapper">
+        <div class="col-a">
+          <header>
+            <h4>Sobre Nós</h4>
+            <h2>Entenda quem somos e por que existimos</h2>
+          </header>
+          
+          <div class="content">
+            <p>
+              Somos uma clínica focada em atendimento humanizado e cuidado integral. 
+              Nossa missão é promover saúde e bem-estar por meio de prevenção, diagnóstico
+              preciso e acompanhamento contínuo. Trabalhamos com diversas especialidades, 
+              sempre buscando excelência e inovação para transformar vidas e garantir qualidade de vida 
+              para nossos pacientes.
+            </p>
+          </div>
+          
+          
+        </div>
+
+        <div class="col-b">
+          <img
+            src="./assets/images/medico.jpg"
+            alt="Doutor feliz segurando prancheta com pacientes"
+          />
+        </div>
+      </div>
+    </section>
+
+
+    <section id="testimonials">
+      <div class="wrapper">
+        <header>
+          <h4>Depoimentos dos Clientes</h4>
+          <h2>O que nossos pacientes dizem</h2>
+        </header>
+        <section id="testimonials">
+          <div class="carousel">
+            <div class="carousel-inner">
+
+              <div class="testimonial-box">
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <p>"Serviço excelente e equipe muito atenciosa!"</p>
+                <p><strong>- João Silva</strong></p>
+              </div>
+        
+              <div class="testimonial-box">
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <p>"Atendimento rápido e eficiente. Recomendo!"</p>
+                <p><strong>- Ana Pereira</strong></p>
+              </div>
+        
+              <div class="testimonial-box">
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <p>"Acompanhamento de qualidade e profissionais dedicados. Estou muito satisfeito!"</p>
+                <p><strong>- Maria Oliveira</strong></p>
+              </div>
+        
+              <div class="testimonial-box">
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <p>"O atendimento na Saúde Fácil é sempre excepcional. Eu me sinto valorizado como paciente."</p>
+                <p><strong>- Carlos Almeida</strong></p>
+              </div>
+        
+              <div class="testimonial-box">
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <p>"A clínica é muito bem equipada e a equipe está sempre disposta a ajudar.
+                   Uma ótima experiência!"</p>
+                <p><strong>- Beatriz Costa</strong></p>
+              </div>
+            </div>
+          </div>
+          </div>
+        </section>
+        
+    
+    
+    <section id="contact">
+      <div class="wrapper">
+        <div class="col-a">
+          <header>
+            <h2>Entre em contato com a gente!</h2>
+          </header>
+
+          <div class="content">
+            <ul>
+              <li>
+                <i class="fas fa-map-marker-alt"></i> R. Saudefacil, 346
+              </li>
+              <li>
+                <i class="fas fa-envelope"></i> contato@saudefacil.com
+              </li>
+            </ul>
+        
+            <a class="button-contact" href="https://wa.me/" target="_blank">
+              <i class="fab fa-whatsapp"></i> Agende sua consulta
+            </a>
+          </div>
+        </div>
+
+        
+
+        <div class="col-b">
+          <img
+            src="./assets/images/contato.jpg"
+            alt="mluher agendenda uma consulta no celular"
+          />
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="wrapper">
+        <div class="col-a">
+          <a class="name" href="#home">
+            <h1>SaudeFacil</h1>
+          </a>
+    
+          <p>
+            © 2024 SaudeFacil. <br />
+            Todos os direitos reservados.
+          </p>
+        </div>
+    
+        <div class="col-b">
+          <h4>Redes Sociais</h4> 
+          <ul class="social-links">
+            <li>
+              <a target="_blank" href="https://instagram.com" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="https://wa.me/" aria-label="WhatsApp">
+                <i class="fab fa-whatsapp"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    
+
+    <a id="backToTopButton" href="#home">
+    </a>
+
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/cont.js"></script>
+    <script src="./assets/js/carrosel.js"></script>
+  </body>
+</html>
